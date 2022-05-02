@@ -1,0 +1,150 @@
+
+
+/* *********************style column-left**************** */
+/* *********************style column-left**************** */
+
+.column-left {
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* *********************.column-left-header**************** */
+/* *********************.column-left-header**************** */
+
+
+.column-left-header {
+    position: relative;
+    height: 11.7%;
+    width: 100%;
+}
+
+.header-oval {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+
+    margin-left: -25px;
+    margin-top: -25px;
+    border: none;
+    border-radius: 50%;
+
+    background-image: repeating-linear-gradient(-45deg, transparent , transparent 4px, #fff 3px, #fff 6px);
+}
+
+
+/* *********************.column-left-middle**************** */
+/* *********************.column-left-middle**************** */
+
+
+.column-left-middle {
+    position: relative;
+
+    width: 100%;
+    height: 77%;
+}
+
+
+.images {
+    width: 100%;
+    height: 276px;
+}
+
+
+.border-top {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+
+    margin-top: 0.5px;
+    margin-left: 57.8px;
+
+    border: 3px solid rgb(3, 3, 88);
+    border-radius: 0 60px 0 ;
+}
+.border-bot {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+
+    margin-top: 22px;
+    margin-left: 33.8px;
+
+    border: 3px solid rgb(3, 3, 88);
+    border-radius: 0 60px 0 ;
+}
+
+
+.main-img {
+    position: relative;
+    width: 249px;
+    height: 249px;
+    left: 46px;
+    top: 11px;
+
+    border: 3px solid rgb(3, 3, 88);
+    border-radius: 0 60px 0 ;
+
+    overflow: hidden;
+}
+.main-img img {
+    position: absolute;
+    width: 500px;
+    height: 400px;
+
+    left: -200px;
+    top: -60px;
+
+    transform: rotateY(180deg);
+} */
+
+
+/* *********************.column-left-footer**************** */
+/* *********************.column-left-footer**************** */
+
+.column-left-footer {
+    position: relative;
+    width: 100%;
+    height: 100px;
+
+
+    border: 2px solid rgb(12, 12, 12);
+}
+.column-left-footer-triangle {
+    position: absolute;
+    
+    top: 273px;
+    left: 11px;
+
+    width: fit-content;
+    height: fit-content;
+}
+
+.footer-triangle-1   {
+    width: 0px;
+    height: 0px;
+
+    border: 10px solid transparent;
+    border-bottom-color: rgb(14, 107, 150);
+}
+.footer-triangle-2   {
+
+    width: 0px;
+    height: 0px;
+
+    border: 10px solid transparent;
+    border-bottom-color: rgb(14, 107, 150);
+}
+.footer-triangle-3   {
+
+    width: 0px;
+    height: 0px;
+
+    border: 10px solid transparent;
+    border-bottom-color: rgb(14, 107, 150);
+}
+

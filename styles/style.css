@@ -4,9 +4,6 @@
 }
 body {
     background-color: #00afb0;
-
-    font-family: ;
-    font-size: ;
 }
 .nav p {
     display: flex;
@@ -27,8 +24,12 @@ body {
 
     color: #fff;
 }
+
 .main-content {
     box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+
     margin: 30px auto;
 
     width: 652px;
@@ -36,7 +37,6 @@ body {
 
     border: 2px solid black;
     background-image: url("../image/backgound.png");
-    background-repeat: none;
     background-position: center;
     background-size: cover;
 }
