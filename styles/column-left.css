@@ -1,0 +1,137 @@
+
+
+/* *********************style column-left**************** */
+/* *********************style column-left**************** */
+
+.column-left {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+
+    overflow: hidden;
+}
+
+
+/* *********************Justify oval**************** */
+/* *********************Justify oval**************** */
+
+
+
+.header-oval {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+
+    top: -20px;
+    left: -20px;
+
+    border: none;
+    border-radius: 50%;
+
+    background-image: repeating-linear-gradient(-45deg, transparent , transparent 4px, #fff 3px, #fff 6px);
+}
+
+
+/* *********************justify image**************** */
+/* *********************justify image**************** */
+
+
+.images {
+    position: relative;
+
+    width: 287px;
+    height: 287px;
+}
+
+
+.border-top {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+
+    top: 0px;
+    left: 30px;
+
+    border: 3px solid rgb(3, 3, 88);
+    border-radius: 0 60px 0 ;
+}
+.border-bot {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+
+    top: 30px;
+    left: 0px;
+
+    border: 3px solid rgb(3, 3, 88);
+    border-radius: 0 60px 0 ;
+}
+
+
+.main-img {
+    position: relative;
+    width: 249px;
+    height: 249px;
+
+    top: 15px;
+    left: 15px;
+
+    border: 3px solid rgb(3, 3, 88);
+    border-radius: 0 60px 0 ;
+
+    overflow: hidden;
+}
+.main-img img {
+    position: absolute;
+    width: 500px;
+    height: 400px;
+
+    top: -70px;
+    left: -190px;   
+
+    transform: rotateY(180deg);
+} 
+
+
+/* *********************Justify triangle**************** */
+/* *********************Justify triangle**************** */
+
+
+.column-left-triangle {
+    position: absolute;;
+
+    width: fit-content;
+    height: fit-content;
+
+    bottom: 16px;
+    left: 8px;
+
+}
+
+.triangle-1   {
+    width: 0px;
+    height: 0px;
+
+    border: 10px solid transparent;
+    border-bottom-color: rgb(14, 107, 150);
+}
+.triangle-2   {
+
+    width: 0px;
+    height: 0px;
+
+    border: 10px solid transparent;
+    border-bottom-color: rgb(14, 107, 150);
+}
+.triangle-3   {
+
+    width: 0px;
+    height: 0px;
+
+    border: 10px solid transparent;
+    border-bottom-color: rgb(14, 107, 150);
+}
+
